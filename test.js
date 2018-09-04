@@ -2,11 +2,7 @@ var expect = require('chai').expect;
 
 var createModdle = require('bpmnlint/lib/testers/helper').createModdle;
 
-var RuleTester = require('bpmnlint/lib/testers/rule-tester')({
-  expectEqual: (a, b) => {
-    expect(a).to.eql(b);
-  }
-});
+var RuleTester = require('bpmnlint/lib/testers/rule-tester');
 
 var manualTaskRule = require('./rules/no-manual-task');
 var targetNamespaceRule = require('./rules/target-namespace');
