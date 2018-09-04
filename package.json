@@ -4,6 +4,7 @@
   "description": "A bpmnlint example plug-in",
   "main": "index.js",
   "scripts": {
+    "all": "npm test",
     "test": "mocha test.js"
   },
   "repository": {
