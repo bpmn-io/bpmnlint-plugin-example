@@ -1,0 +1,26 @@
+{
+  "name": "bpmnlint-plugin-example",
+  "version": "0.0.0",
+  "description": "A bpmnlint example plug-in",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpmn-io/bpmnlint-plugin-example"
+  },
+  "keywords": [
+    "bpmnlint",
+    "plugin"
+  ],
+  "author": {
+    "name": "Nico Rehwaldt",
+    "url": "https://github.com/nikku"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
