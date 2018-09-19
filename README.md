@@ -29,7 +29,7 @@ Checkout [`./test.js`](./test.js) to learn how to test your rules.
 
 ## Add Configuration
 
-As part of the [`index.js`](./index.js) the plug-in exposes configurations
+As part of the [`./index.js`](./index.js) the plug-in exposes configurations
 to extend from using `extends` in the bpmnlint configuration:
 
 ```json
