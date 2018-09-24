@@ -1,9 +1,12 @@
+const {
+  is
+} = require('bpmnlint-utils');
+
+
 /**
  * Rule that reports manual tasks being used.
  */
-module.exports = function(utils) {
-
-  var is = utils.is;
+module.exports = function() {
 
   function check(node, reporter) {
     if (is(node, 'bpmn:ManualTask')) {

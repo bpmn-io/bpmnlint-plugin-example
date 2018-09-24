@@ -1,9 +1,12 @@
+const {
+  is
+} = require('bpmnlint-utils');
+
+
 /**
  * Rule that reports missing targetNamespace on bpmn:Definitions.
  */
-module.exports = function(utils) {
-
-  var is = utils.is;
+module.exports = function() {
 
   function check(node, reporter) {
     if (is(node, 'bpmn:Definitions') && !node.targetNamespace) {
