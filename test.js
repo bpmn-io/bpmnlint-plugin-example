@@ -1,11 +1,11 @@
-var expect = require('chai').expect;
+const { expect } = require('chai');
 
-var createModdle = require('bpmnlint/lib/testers/helper').createModdle;
+const { createModdle } = require('bpmnlint/lib/testers/helper');
 
-var RuleTester = require('bpmnlint/lib/testers/rule-tester');
+const RuleTester = require('bpmnlint/lib/testers/rule-tester');
 
-var manualTaskRule = require('./rules/no-manual-task');
-var targetNamespaceRule = require('./rules/target-namespace');
+const manualTaskRule = require('./rules/no-manual-task');
+const targetNamespaceRule = require('./rules/target-namespace');
 
 
 RuleTester.verify('no-manual-task', manualTaskRule, {
