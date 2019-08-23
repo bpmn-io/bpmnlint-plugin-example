@@ -21,11 +21,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "bpmnlint": "^5.0.0",
-    "chai": "^4.1.2",
+    "bpmnlint": "^6.1.0",
+    "chai": "^4.2.0",
     "mocha": "^5.2.0"
   },
   "dependencies": {
-    "bpmnlint-utils": "^1.0.1"
+    "bpmnlint-utils": "^1.0.2"
   }
 }
