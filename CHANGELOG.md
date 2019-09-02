@@ -6,6 +6,10 @@ All notable changes to [bpmnlint-plugin-example](https://github.com/bpmn-io/bpmn
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.5.1
+
+* `DOCS`: correct `no-manual-task` documentation
+
 ## 0.5.0
 
 * `CHORE`: add rule documentation
