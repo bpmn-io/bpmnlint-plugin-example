@@ -1,6 +1,6 @@
 {
   "name": "bpmnlint-plugin-example",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A bpmnlint example plug-in",
   "main": "index.js",
   "scripts": {
