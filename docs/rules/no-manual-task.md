@@ -1,4 +1,4 @@
-# Target Namespace (target-namespace)
+# No Manual Task (no-manual-task)
 
 Checks that the diagram does not contain manual tasks that have no execution semantics.
 
