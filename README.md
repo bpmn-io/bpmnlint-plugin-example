@@ -1,6 +1,6 @@
 # bpmnlint-plugin-example
 
-[![Build Status](https://travis-ci.org/bpmn-io/bpmnlint-plugin-example.svg?branch=master)](https://travis-ci.org/bpmn-io/bpmnlint-plugin-example)
+[![Build Status](https://travis-ci.com/bpmn-io/bpmnlint-plugin-example.svg?branch=master)](https://travis-ci.com/bpmn-io/bpmnlint-plugin-example)
 
 An example [bpmnlint](https://github.com/bpmn-io/bpmnlint) plug-in.
 
