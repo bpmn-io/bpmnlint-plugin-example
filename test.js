@@ -9,12 +9,23 @@ const targetNamespaceRule = require('./rules/target-namespace');
 
 
 RuleTester.verify('no-manual-task', manualTaskRule, {
+  
   valid: [
     {
       moddleElement: createModdle(
         '<startEvent xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" id="startEvent" />',
         'bpmn:StartEvent'
       )
+    },
+    
+    // during development, you may test a single rule (or skip a rule)
+    // by passing a custom `it` to the rule description
+    {
+      moddleElement: createModdle(
+        '<startEvent xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" id="startEvent" />',
+        'bpmn:StartEvent'
+      ),
+      it: it.skip
     }
   ],
   invalid: [
