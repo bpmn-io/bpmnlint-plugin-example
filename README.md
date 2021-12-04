@@ -42,6 +42,11 @@ to extend from using `extends` in the bpmnlint configuration:
 ```
 
 
+## Visual Debugging
+
+Use the [bpmnlint-playground](https://github.com/bpmn-io/bpmnlint-playground) to visually debug your rules.
+
+
 ## License
 
 MIT
