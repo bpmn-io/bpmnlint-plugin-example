@@ -1,6 +1,6 @@
 # bpmnlint-plugin-example
 
-[![Build Status](https://travis-ci.com/bpmn-io/bpmnlint-plugin-example.svg?branch=master)](https://travis-ci.com/bpmn-io/bpmnlint-plugin-example)
+[![CI](https://github.com/bpmn-io/bpmnlint-plugin-example/actions/workflows/CI.yml/badge.svg)](https://github.com/bpmn-io/bpmnlint-plugin-example/actions/workflows/CI.yml)
 
 An example [bpmnlint](https://github.com/bpmn-io/bpmnlint) plug-in.
 
